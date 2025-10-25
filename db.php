@@ -5,7 +5,7 @@ session_start();
 
 $servidor = "sql308.infinityfree.com"; 
 $usuario_db = "if0_40249400";     
-$password_db = "la_contraseña_de_tu_cuenta_infinityfree"; 
+$password_db = "35A7f5f181"; 
 $nombre_db = "if0_40249400_proyectos"; 
 
 // Crear la conexión
