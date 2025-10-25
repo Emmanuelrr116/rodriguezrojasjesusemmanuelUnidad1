@@ -1,12 +1,12 @@
 <?php
-// Iniciar sesión. Esto debe estar en todas las páginas que usan sesiones.
+
 session_start();
 
-// Datos de conexión a la base de datos
-$servidor = "localhost";
-$usuario_db = "root";
-$password_db = "";
-$nombre_db = "cointrack_db";
+
+$servidor = "sql308.infinityfree.com"; 
+$usuario_db = "if0_40249400";     
+$password_db = "la_contraseña_de_tu_cuenta_infinityfree"; 
+$nombre_db = "if0_40249400_proyectos"; 
 
 // Crear la conexión
 $conexion = new mysqli($servidor, $usuario_db, $password_db, $nombre_db);
